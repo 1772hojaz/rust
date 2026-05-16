@@ -30,3 +30,7 @@ A variable can  be accessed in its scope.
 ![An image that illustrates the scope idea in code](../../images/d.png)
 
 ![An image of an out of scope variable error](../../images/c.png)
+
+What it looks like when the y variable is removed on the outer scope
+
+![the outer scope without y](../../images/e.png)

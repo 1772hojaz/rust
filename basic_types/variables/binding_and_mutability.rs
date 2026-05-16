@@ -1,7 +1,7 @@
 fn main(){
-    let x: i32; //uninitialised but used, Error!
-    let x: i32; // Uninitialised and unused, only a Warning
+    let x: i32 = 5; //uninitialised but used, Error!
+    let y: i32; // Uninitialised and unused, only a Warning
 
-    assert_eq(x,5);
-    println!(Success);
+    assert_eq!(x,5);
+    println!("Success");
 }

@@ -34,3 +34,8 @@ A variable can  be accessed in its scope.
 What it looks like when the y variable is removed on the outer scope
 
 ![the outer scope without y](../../images/e.png)
+
+## Shadowing
+
+You can declare a new variable with the same name as a previous variable, we can say that the first one is shadowed by the second one
+

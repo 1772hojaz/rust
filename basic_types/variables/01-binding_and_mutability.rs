@@ -3,5 +3,5 @@ fn main(){
     let y: i32; // Uninitialised and unused, only a Warning
 
     assert_eq!(x,5);
-    println!("Success");
+    println!("Success"); // Prints when the program is successful
 }

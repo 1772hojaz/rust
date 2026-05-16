@@ -1,5 +1,5 @@
 ## Rust basics 
-* [Binding and mutability](#Binding and Mutability)
+* [Binding and mutability](#Binding-and-Mutability)
 
 ## Binding and Mutability
 

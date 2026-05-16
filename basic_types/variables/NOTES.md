@@ -1,6 +1,6 @@
 # Rust basics 
 * [Binding and mutability](#Binding-and-Mutability)
-
+* [Scope](#Scope)
 ## Binding and Mutability
 
 A variable can be used only if it has been initialised.

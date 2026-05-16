@@ -22,4 +22,9 @@ In rust a variable by its nature is immutable and you have to explicity state th
 
 ![An image showing mut being used](../../images/b.png)
 
+## Scope
 
+Scope of a variable is the block of code in which it is declared.
+A variable can  be accessed in its scope.
+
+![An image of an out of scope variable error](../../images/c.png)

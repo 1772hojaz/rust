@@ -27,4 +27,6 @@ In rust a variable by its nature is immutable and you have to explicity state th
 Scope of a variable is the block of code in which it is declared.
 A variable can  be accessed in its scope.
 
+![An image that illustrates the scope idea in code](../../images/d.png)
+
 ![An image of an out of scope variable error](../../images/c.png)

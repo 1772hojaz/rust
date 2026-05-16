@@ -1,5 +1,5 @@
 fn main(){
-    let mut x  = 1;
+    let mut x: i32  = 1;
     x = x + 2;
 
     assert_eq!(x, 3);

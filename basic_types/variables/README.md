@@ -1,25 +1,17 @@
-# Rust basics 
-* [Binding and mutability](#Binding-and-Mutability)
+# These are some basic rust programs 
 
-## Binding and Mutability
+## To run follow this example
 
-A variable can be used only if it has been initialised.
-
-![An image showing the error of a used variable that was not initiated](../../images/uninitiated.png)
-
-
-A variable that has not been initialised but used will yeild a warning on compilation
-
-![An image showing a warning for an uninitiated variable that was not used](../../images/uninitiated_not_used.png)
-
-
-WHEN THE VARIABLES ARE INITIALISED
-![An image of the output when the variable has been initialsed](../../images/a.png) 
-
-## Use mut to mark a variable as mutable
-
-In rust a variable by its nature is immutable and you have to explicity state that you want a variable to be mutable
-
-![An image showing mut being used](../../images/b.png)
-
-
+* 1. First compile the program
+        ```bash
+        $ rustc 01-example.rs --out-dir Compiled_files
+        $
+        ```
+* 2. Move to where the compiled files are and run the file
+        ```bash
+        $ cd Compiled_files
+        $ ls
+        $ example
+        $ ./example
+        $ Success
+        ```

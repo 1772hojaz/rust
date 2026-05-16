@@ -16,7 +16,7 @@ A variable that has not been initialised but used will yeild a warning on compil
 WHEN THE VARIABLES ARE INITIALISED
 ![An image of the output when the variable has been initialsed](../../images/a.png) 
 
-###### Use mut to mark a variable as mutable
+## Use mut to mark a variable as mutable
 
 In rust a variable by its nature is immutable and you have to explicity state that you want a variable to be mutable
 

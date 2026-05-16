@@ -20,6 +20,6 @@ WHEN THE VARIABLES ARE INITIALISED
 
 In rust a variable by its nature is immutable and you have to explicity state that you want a variable to be mutable
 
-![An image showing mut being used](../../b.png)
+![An image showing mut being used](../../images/b.png)
 
 

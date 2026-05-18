@@ -48,7 +48,22 @@
 * You have to do it explicitly
 * for example you can not assign a u8 value to a variable with type u32 even though all u8 values are valid u32 values
 
+```
+let b: u8 = 100;
+let a: u32 = b
+'''
 
+error
+```
+error[E0308]: mismatched types
+  |
+3 |     let a: u32 = b;
+  |            ---   ^ expected `u32`, found `u8`
+  |            |
+  |            expected due to this
+  |
+
+```
 
 
 

@@ -30,6 +30,27 @@
 * If no context is provided the compiler wil default to i32
 * If you want to use a different type, you can used the desired type as a suffix eg 2u64 is a 2 that is explicitly  typed as a u64
 
+## Underscores in literals
+* You can use underscores _ to improvr the readability of large numbers for example 1_000_000 is the same as 1000000
+
+## Arithmetic operators
+
+### Rust supports the following arithmetic operators for integers
+* + for addition
+* - for sub
+* * for mult
+* / for div
+* % for remainder
+
+## No automatic type coercion
+
+* Rust is very strict when it comes to type coecion, It will not automatically convert a value from one type to another, even if conversion is lossless.
+* You have to do it explicitly
+* for example you can not assign a u8 value to a variable with type u32 even though all u8 values are valid u32 values
+
+
+
+
 
 
 

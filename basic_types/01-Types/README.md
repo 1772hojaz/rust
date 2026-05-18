@@ -53,7 +53,9 @@ let b: u8 = 100;
 let a: u32 = b
 '''
 
+
 error
+
 ```
 error[E0308]: mismatched types
   |
